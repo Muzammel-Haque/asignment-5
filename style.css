@@ -30,7 +30,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
-    border: 2px solid white;
+    border: 2px solid #F8F9FA;
     height: 540px;
     overflow: hidden;
     box-shadow: thistle;
@@ -47,4 +47,16 @@
 .menu-name{
     text-align: center;
     color: indianred;
+}
+.detail-img{
+    width: 400px;
+}
+#meal-detail{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 407px;
+    border-radius: 7px;
+}
+#ingredients{
+    
 }

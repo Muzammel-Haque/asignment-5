@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.min.css">
 </head>
-<body>
-    <div id="full-section">
+<body id="full-section">
+    <header>
         <nav id="napvar" class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
               <img id="logo" src="napbar.png" alt="">
@@ -26,15 +26,22 @@
               </div>
             </div>
         </nav>
-        <div class="d-flex justify-content-center" id="search-section">
-            <input id="input-btn" type="text">
-            <button id="search-btn" class="btn btn-danger">Search</button>
-        </div>
+    </header>
+    <main>
+      <div class="d-flex justify-content-center" id="search-section">
+          <input id="input-btn" type="text">
+          <button id="search-btn" class="btn btn-danger">Search</button>
+          <h4 id="error-text" class="text-danger"></h4>
+      </div>
+      <div id="meal-detail">
 
-        <div id="display-items">
-             
-        </div>
-    </div>
+      </div>
+      
+      <div onclick="" id="display-items">
+
+      </div>
+    </main>
+      
 
     <script src="script.js"></script>
 </body>
